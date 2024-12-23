@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+body {
+  width: 100%;
+  background-color: rgba(237, 235, 218, 0.9);
+  text-align: center;
+  padding: 30px auto;
+  border-radius: 10px;
+  background-image: url("../city01.png");
+  background-size: 50%;
+}
+form {
+  width: 75%;
+  margin: 50 10 10 20;
+  font-size: 100%;
+  margin: 0 auto;
+  padding: auto 5px 5px 5px;
+  border: 0px solid black;
+  background: whitesmoke;
+  border-radius: 0px 0px 10px 10px;
+}
+.header {
+  font-size: 150%;
+  color: rgb(49, 34, 0);
+}
+
+

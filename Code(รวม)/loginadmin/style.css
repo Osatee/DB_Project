@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Kanit', sans-serif;
+}
+
+body{
+    font-size: 120%;
+    margin: auto auto;
+    text-align: center;
+    background-color: rgba(237, 235, 218, 0.9);
+    background-image: url('../city.png');
+    background-size: 50%;
+}
+
+input{
+    padding: 1rem 3rem;
+}
+
+.header{
+    font: bold;
+    font-size: 150%;
+    width: 35%;
+    margin: 20px auto 0px;
+    color: white;
+    background: rgb(117, 209, 240);
+    text-align: center;
+    border: px solid whitesmoke;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form{
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.btn{
+    font: bold;
+    padding: 10px;
+    width: 35%;
+    color: white;
+    background: rgb(117, 209, 240);
+    border: none;
+    border-radius: 5px;
+}
+
+.url{
+    font-size: 14px;
+}
+
+.img{
+    height: 30px;
+    padding: -10px auto;
+}
+
+.success{
+    font-size: 16px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    color: darkgreen;
+    background: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error{
+    font-size: 13px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid lightcoral;
+    color: darkred;
+    background: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
